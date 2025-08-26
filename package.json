@@ -21,7 +21,7 @@
   "access": "public",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/organizations/xstd-js/repositories/new.git"
+    "url": "git+https://github.com/xstd-js/mapped-list.git"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
