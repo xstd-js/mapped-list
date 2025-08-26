@@ -820,7 +820,7 @@ __metadata:
   dependencies:
     "@types/node": "npm:^24.3.0"
     "@vitest/coverage-istanbul": "npm:^3.2.4"
-    "@xstd/with-immutability": "npm:^0.0.1-dev.1756206928709"
+    "@xstd/with-immutability": "npm:^0.0.1"
     prettier: "npm:^3.6.2"
     prettier-plugin-organize-imports: "npm:^4.2.0"
     typedoc: "npm:^0.28.10"
@@ -829,10 +829,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@xstd/with-immutability@npm:^0.0.1-dev.1756206928709":
-  version: 0.0.1-dev.1756206928709
-  resolution: "@xstd/with-immutability@npm:0.0.1-dev.1756206928709"
-  checksum: 10c0/ab4cf21c9bbf0fcc12209ea9a4991080ebe1b30ae0439a293b336d4fad0a09456a7e084bbeacab4a7ed47735eeecf24806005d5b541ce4b581ceab89691675ad
+"@xstd/with-immutability@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@xstd/with-immutability@npm:0.0.1"
+  checksum: 10c0/2b3bf4d6a4dc55d176c459479247188efcbdafeb3360f7546cb8909843c657a6587cc6925dcf03c8ff258bf3ed8083b7d4fa77462073538e62a0727b91c067f8
   languageName: node
   linkType: hard
 

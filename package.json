@@ -38,6 +38,6 @@
     "type": "lib"
   },
   "dependencies": {
-    "@xstd/with-immutability": "^0.0.1-dev.1756206928709"
+    "@xstd/with-immutability": "^0.0.1"
   }
 }
