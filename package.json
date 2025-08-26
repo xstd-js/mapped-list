@@ -1,0 +1,43 @@
+{
+  "name": "@xstd/mapped-list",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "fb:build": "node fabrique/actions/cli/build.cli.js",
+    "fb:format": "prettier --write --ignore-unknown --config ./.prettierrc \"src/**/*.{js,jsx,ts,tsx,html,css,scss}\"",
+    "fb:test": "vitest",
+    "fb:test:coverage": "vitest run --coverage",
+    "fb:bench": "vitest bench",
+    "fb:typedoc": "typedoc --options typedoc.json --tsconfig tsconfig.json",
+    "fb:prod": "node fabrique/actions/cli/build-and-publish.cli.js --mode prod",
+    "fb:dev": "node fabrique/actions/cli/build-and-publish.cli.js --mode dev",
+    "fb:rc": "node fabrique/actions/cli/build-and-publish.cli.js --mode rc"
+  },
+  "description": "A list of entries whose keys (string) may be used to index the values",
+  "keywords": [],
+  "author": "Valentin Richard",
+  "license": "MIT",
+  "access": "public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organizations/xstd-js/repositories/new.git"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vitest/coverage-istanbul": "^3.2.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "typedoc": "^0.28.10",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "yarn@4.9.3",
+  "fabrique": {
+    "version": "1.0.2",
+    "type": "lib"
+  },
+  "dependencies": {
+    "@xstd/with-immutability": "^0.0.1-dev.1756206928709"
+  }
+}
